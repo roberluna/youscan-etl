@@ -1,0 +1,33 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Variables de entorno (contiene contraseñas)
+.env
+
+# Archivos de datos (se suben manualmente al servidor)
+data/*.xlsx
+data/*.csv
+data/*.xls
+
+# Backups
+*.sql.bak
+backup_*.sql
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
